@@ -50,22 +50,22 @@ export const createContent = (data) => {
     }
 
     weatherInfoWind.append(
-        createWeatherItemTitle('Ветер'),
+        createWeatherItemTitle('Wind'),
         createWeatherItemContent(data.wind.speed + 'm/s, ' + directionOfwWind(data.wind.deg))
     );
 
     weatherInfoPressure.append(
-        createWeatherItemTitle('Давление'),
+        createWeatherItemTitle('Pressure'),
         createWeatherItemContent(data.main.pressure + 'mm. hg.')
     );
 
     weatherInfoHumidity.append(
-        createWeatherItemTitle('Влажность'),
+        createWeatherItemTitle('Humidity'),
         createWeatherItemContent(data.main.humidity + ' %')
     );
 
     weatherInfoClouds.append(
-        createWeatherItemTitle('Облачность'),
+        createWeatherItemTitle('Cloudiness'),
         createWeatherItemContent(data.clouds.all + ' %')
     );
 

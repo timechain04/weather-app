@@ -35,8 +35,8 @@ export const createHeader = (city) => {
 
     searchBtn.textContent = 'ok';
     cityName.textContent = city;
-    cityChange.textContent = 'Сменить город';
-    cityLocation.textContent = 'Мое местоположение';
+    cityChange.textContent = 'Change city';
+    cityLocation.textContent = 'My location';
     unitsC.textContent = 'C';
     unitsF.textContent = 'F';
 
